@@ -30,7 +30,7 @@
     
 
 
-    <div class="card mb-3 shadow mx-2" *ngFor="let torneo of fecha.torneos">
+    <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInDown animate__delay-{{ (i > 5) ? 5 : i }}s" *ngFor="let torneo of fecha.torneos; index as i">
       <div class="card-header fs-4 fw-bold border-bottom border-2 bg-primary bg-opacity-10 -text-white">{{ torneo.nombre }}</div>
 
       <div class="row g-0 px-2 align-items-center border-bottom d-flex" *ngFor="let evento of torneo.eventos">

@@ -16,7 +16,7 @@ export class AgendaService {
     return this.http.get(url).pipe(map((resp:any) => {
       // console.log(resp);
       return resp.data;
-    }),catchError(err => of({status:false,msg:'Error'}))
+    }),catchError(err => of({status:false,msg:err.error.msg}))
     )
   }
 }

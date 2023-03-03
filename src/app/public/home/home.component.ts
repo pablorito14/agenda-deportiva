@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import moment from 'moment';
 import { AgendaService } from '../services/agenda.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-home',
@@ -23,8 +24,38 @@ export class HomeComponent implements OnInit {
     this.obtenerAgenda();
   }
 
+  notificacion(msg:string){
+    const Toast = Swal.mixin({
+      toast: true,
+      position: 'top',
+      showConfirmButton: true,
+      confirmButtonText: 'Actualizar',
+      // timer: 5000,
+      timerProgressBar: true,
+      // didOpen: (toast) => {
+      //   toast.addEventListener('mouseenter', Swal.stopTimer)
+      //   toast.addEventListener('mouseleave', Swal.resumeTimer)
+      // }
+    })
+    
+    Toast.fire({
+      icon: 'error',
+      title: `¡Ocurrió un Error!`,
+      text: msg
+    }).then((result) => {
+      if (result.isConfirmed) {
+        this.obtenerAgenda();
+      }
+    })
+  }
+
   obtenerAgenda(){
     this._agenda.getAgenda().subscribe(resp => {
+      console.log(resp);
+      if(resp.status === false){
+        this.notificacion(resp.msg);
+        return;
+      }
       this.agenda = resp;
       this.fechaSel = resp[0].fecha; 
       this.indiceFechaSel = 0;
