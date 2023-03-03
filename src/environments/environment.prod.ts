@@ -1,4 +1,4 @@
 export const environment = {
-  apiUrl: 'https://agenda-deportiva-futbool.onrender.com/api',
+  apiUrl: 'https://istoreliberaciones.up.railway.app/api',
   production: true
 };
