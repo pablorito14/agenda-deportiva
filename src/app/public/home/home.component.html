@@ -1,0 +1,51 @@
+<div class="row g-0 d-flex justify-content-center">
+  
+  <div class="col-12 col-lg-10 col-xl-8" *ngFor="let fecha of agenda | filtrarDias:fechaSel">
+    <div class="row g-0 align-items-center mb-3 -pt-2 bg-black text-white rounded-4 rounded-top-0 shadow">
+      <div class="col-3 col-md-2 order-0 order-md-0 d-grid">
+        <button class="btn btn-primary m-2 ms-3" (click)="cambiarFecha('-1')" [disabled]="indiceFechaSel == 0">
+          <i class="fs-4 fa-duotone fa-angles-left"></i>
+        </button>
+      </div>
+      
+      <div class="col-12 col-md-8 order-2 order-md-1 fs-3 fw-bold text-center">
+        {{ moment('2023-09-27').format('dddd DD [de] MMMM') | uppercase }} 
+        <!-- {{ moment(fecha.fecha).format('dddd DD [de] MMMM') | uppercase }}  -->
+        <span class="d-none d-md-inline" role="button" (click)="actualizar()">
+          <i class="fa-duotone fa-rotate-right fa-sm" [ngClass]="{'fa-spin': reload}"></i>
+        </span>
+      </div>
+
+      <div class="col-2 offset-2 d-grid d-md-none">
+        <button class="btn btn-secondary m-2" (click)="actualizar()">
+          <i class="fa-duotone fa-rotate-right fa-xl" [ngClass]="{'fa-spin': reload}"></i>
+        </button>
+      </div>
+      <div class="col-3 offset-2 col-md-2 offset-md-0 order-1 order-md-2 text-end d-grid">
+        <button class="btn btn-primary m-2 me-3" (click)="cambiarFecha('+1')" [disabled]="indiceFechaSel == (agenda.length-1)">
+          <i class="fs-4 fa-duotone fa-angles-right"></i>
+        </button>
+      </div>
+    </div>
+    
+
+
+    <div class="card mb-3 shadow mx-2" *ngFor="let torneo of fecha.torneos">
+      <div class="card-header fs-4 fw-bold border-bottom border-2 bg-primary bg-opacity-10 -text-white">{{ torneo.nombre }}</div>
+
+      <div class="row g-0 px-2 align-items-center border-bottom d-flex" *ngFor="let evento of torneo.eventos">
+        <div class="col-2 col-lg-1 pe-0 fw-bold py-1">
+          {{ moment(evento.fecha).format('HH:mm') }}
+        </div>
+        <div class="col-8 col-lg-8">
+          {{ evento.nombre }}
+        </div>
+        <div class="col-2 col-lg-3 text-center text-md-end">
+          <div class="lh-1 mb-1" *ngFor="let canal of evento.canales">
+            <small class="text-muted canales">{{ canal.nombre }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

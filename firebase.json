@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/agenda-futbol",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
