@@ -6,11 +6,7 @@ import Swal from 'sweetalert2';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styles: [`
-    .canales{
-      font-size: .75rem
-    }
-  `]
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
   moment:any = moment;

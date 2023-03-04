@@ -1,0 +1,31 @@
+.canales{
+  font-size: .75rem
+}
+
+.clase{
+  max-height: 100vh;
+}
+
+.delay-0{
+  --animate-delay: 0s;
+}
+
+.delay-1{
+  --animate-delay: 0.25s;
+}
+
+.delay-2{
+  --animate-delay: 0.50s;
+}
+
+.delay-3{
+  --animate-delay: 0.75s;
+}
+
+.delay-4{
+  --animate-delay: 1s;
+}
+
+.delay-5{
+  --animate-delay: 1.25s;
+}

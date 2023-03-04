@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "allowedCommonJsDependencies": [
-              "moment"
+              "sweetalert2","moment"
             ],
             "outputPath": "docs",
             "index": "src/index.html",

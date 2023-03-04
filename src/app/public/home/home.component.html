@@ -1,4 +1,4 @@
-<div class="row g-0 d-flex justify-content-center">
+<div class="row g-0 d-flex justify-content-center clase">
   
   <div class="col-12 col-lg-10 col-xl-8" *ngFor="let fecha of agenda | filtrarDias:fechaSel">
     <div class="row g-0 align-items-center mb-3 -pt-2 bg-black text-white rounded-4 rounded-top-0 shadow">
@@ -9,8 +9,8 @@
       </div>
       
       <div class="col-12 col-md-8 order-2 order-md-1 fs-3 fw-bold text-center">
-        {{ moment('2023-09-27').format('dddd DD [de] MMMM') | uppercase }} 
-        <!-- {{ moment(fecha.fecha).format('dddd DD [de] MMMM') | uppercase }}  -->
+        <!-- {{ moment('2023-09-27').format('dddd DD [de] MMMM') | uppercase }}  -->
+        {{ moment(fecha.fecha).format('dddd DD [de] MMMM') | uppercase }} 
         <span class="d-none d-md-inline" role="button" (click)="actualizar()">
           <i class="fa-duotone fa-rotate-right fa-sm" [ngClass]="{'fa-spin': reload}"></i>
         </span>
@@ -30,7 +30,7 @@
     
 
 
-    <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInDown animate__delay-{{ (i > 5) ? 5 : i }}s" *ngFor="let torneo of fecha.torneos; index as i">
+    <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInUp animate__delay-1s delay-{{ (i > 5) ? 5 : i }}" *ngFor="let torneo of fecha.torneos; index as i">
       <div class="card-header fs-4 fw-bold border-bottom border-2 bg-primary bg-opacity-10 -text-white">{{ torneo.nombre }}</div>
 
       <div class="row g-0 px-2 align-items-center border-bottom d-flex" *ngFor="let evento of torneo.eventos">
