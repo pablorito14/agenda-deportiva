@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
     if(!this.update.isEnabled){
       return;
     }
-       console.log('asdasda')
+       
     this.update.versionUpdates.subscribe((event:any) => {
       
       // localStorage.setItem('checkingUpdate','false');

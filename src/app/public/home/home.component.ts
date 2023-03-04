@@ -47,7 +47,7 @@ export class HomeComponent implements OnInit {
 
   obtenerAgenda(){
     this._agenda.getAgenda().subscribe(resp => {
-      console.log(resp);
+      // console.log(resp);
       if(resp.status === false){
         this.notificacion(resp.msg);
         return;
