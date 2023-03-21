@@ -3,14 +3,17 @@ import moment from 'moment';
 import { AgendaService } from '../services/agenda.service';
 import Swal from 'sweetalert2';
 
+
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
   moment:any = moment;
-  constructor(private _agenda:AgendaService) { }
+  constructor(private _agenda:AgendaService) {}
   
   agenda:any[] = [];
   fechaSel!:string;
@@ -18,8 +21,6 @@ export class HomeComponent implements OnInit {
   
   ngOnInit(): void {
     this.orden = localStorage.getItem('sortBy') || 'liga';
-    
-    
     this.obtenerAgenda();
   }
 
@@ -63,14 +64,16 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  
   cambiarFecha(val:string){
-    if(val == '-1'){
+    if(val == '-1' && this.indiceFechaSel > 0){
       this.indiceFechaSel--;
       this.fechaSel = this.agenda[this.indiceFechaSel].fecha;
-    } else if(val == '+1'){
+    } else if(val == '+1' && this.indiceFechaSel < this.agenda.length-1){
       this.indiceFechaSel++;
       this.fechaSel = this.agenda[this.indiceFechaSel].fecha;
     }
+    
   }
 
   reload:boolean = false;

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HammerModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import moment  from 'moment';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+// import { SwipeDirective } from './shared/directives/swipe.directive';
 // import { FiltarDiasPipe } from './shared/pipes/filtar-dias.pipe';
 moment.locale('es');
 
@@ -17,6 +18,7 @@ moment.locale('es');
   declarations: [
     AppComponent,
     MainComponent,
+    // SwipeDirective,
     // FiltarDiasPipe
   ],
   imports: [
@@ -24,6 +26,8 @@ moment.locale('es');
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    // HammerModule,
+    
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable

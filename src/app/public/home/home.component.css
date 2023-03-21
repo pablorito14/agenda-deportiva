@@ -29,3 +29,13 @@
 .delay-5{
   --animate-delay: 1.25s;
 }
+
+.swipe-content{
+  min-height: calc(100vh - 10rem);
+}
+
+@media screen and (min-width: 768px) {
+  .swipe-content{
+    min-height: calc(100vh - 8rem);
+  }
+}

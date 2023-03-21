@@ -1,4 +1,8 @@
-<div class="row g-0 d-flex justify-content-center clase">
+<!-- <div style="height: 500px;" id="swipe-id" #swipe swipe (previous)="cambiarFecha('-1')" (next)="cambiarFecha('+1')">
+  swipe test
+</div> -->
+
+<div class="row g-0 d-flex justify-content-center clase " style="max-width: 100%;overflow-x: hidden;">
   
   <div class="col-12 col-lg-10 col-xl-8" *ngFor="let fecha of agenda | filtrarDias:fechaSel">
     <div class="row g-0 align-items-center mb-3 -pt-2 bg-black text-white rounded-4 rounded-top-0 shadow">
@@ -43,45 +47,49 @@
       
     </div>
 
-    <div *ngIf="orden == 'liga';else horario">
-      <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInUp animate__delay-1s delay-{{ (i > 5) ? 5 : i }}" *ngFor="let torneo of fecha.torneos; index as i">
-        <div class="card-header fs-4 fw-bold border-bottom border-2 bg-primary bg-opacity-10 -text-white">{{ torneo.nombre }}</div>
-  
-        <div class="row g-0 px-2 align-items-center border-bottom d-flex" *ngFor="let evento of torneo.eventos">
-          <div class="col-2 col-lg-1 pe-0 fw-bold py-1">
-            {{ moment(evento.fecha).format('HH:mm') }}
-          </div>
-          <div class="col-8 col-lg-8">
-            {{ evento.nombre }}
-          </div>
-          <div class="col-2 col-lg-3 text-center text-md-end">
-            <div class="lh-1 mb-1" *ngFor="let canal of evento.canales">
-              <small class="text-muted canales">{{ canal.nombre }}</small>
+    <div class="swipe-content" swipe (previous)="cambiarFecha('-1')" (next)="cambiarFecha('+1')">
+      <div *ngIf="orden == 'liga'">
+        <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInUp animate__delay-1s delay-{{ (i > 5) ? 5 : i }}" 
+            *ngFor="let torneo of fecha.torneos; index as i">
+          <div class="card-header fs-4 fw-bold border-bottom border-2 bg-primary bg-opacity-10 -text-white">{{ torneo.nombre }}</div>
+    
+          <div class="row g-0 px-2 align-items-center border-bottom d-flex" *ngFor="let evento of torneo.eventos">
+            <div class="col-2 col-lg-1 pe-0 fw-bold py-1">
+              {{ moment(evento.fecha).format('HH:mm') }}
+            </div>
+            <div class="col-8 col-lg-8">
+              {{ evento.nombre }}
+            </div>
+            <div class="col-2 col-lg-3 text-center text-md-end">
+              <div class="lh-1 mb-1" *ngFor="let canal of evento.canales">
+                <small class="text-muted canales">{{ canal.nombre }}</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <ng-template #horario>
-      <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInUp">
-        <div class="row g-0 px-2 py-1 align-items-center border-bottom d-flex" *ngFor="let evento of fecha.partidos">
-          <div class="col-2 col-lg-1 pe-0 fw-bold py-1">
-            {{ moment(evento.fecha).format('HH:mm') }}
-          </div>
-          <div class="col-8 col-lg-8 lh-sm">
-            {{ evento.nombre }}
-            <div class="text-primary opacity-50 canales fw-bold">{{ evento.competencia }}</div>
-          </div>
-          <div class="col-2 col-lg-3 text-center text-md-end">
-            <div class="lh-1 mb-1" *ngFor="let canal of evento.canales">
-              <small class="text-muted canales">{{ canal.nombre }}</small>
+      <div *ngIf="orden == 'horario'">
+        <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInUp">
+          <div class="row g-0 px-2 py-1 align-items-center border-bottom d-flex" *ngFor="let evento of fecha.partidos">
+            <div class="col-2 col-lg-1 pe-0 fw-bold py-1">
+              {{ moment(evento.fecha).format('HH:mm') }}
+            </div>
+            <div class="col-8 col-lg-8 lh-sm">
+              {{ evento.nombre }}
+              <div class="text-primary opacity-50 canales fw-bold">{{ evento.competencia }}</div>
+            </div>
+            <div class="col-2 col-lg-3 text-center text-md-end">
+              <div class="lh-1 mb-1" *ngFor="let canal of evento.canales">
+                <small class="text-muted canales">{{ canal.nombre }}</small>
+              </div>
             </div>
           </div>
+          
         </div>
         
       </div>
-      
-    </ng-template>
+
+    </div>
     
   </div>
 </div>
