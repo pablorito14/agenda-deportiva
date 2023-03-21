@@ -14,7 +14,8 @@ export class AgendaService {
 
     let url:string = `${environment.apiUrl}/agenda`;
     return this.http.get(url).pipe(map((resp:any) => {
-      // console.log(resp);
+      console.log(resp.data);
+      // console.log(resp.sortByDate)
       return resp.data;
     }),catchError(err => of({status:false,msg:err.error.msg}))
     )

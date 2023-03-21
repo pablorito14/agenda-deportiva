@@ -17,6 +17,9 @@ export class HomeComponent implements OnInit {
   indiceFechaSel!:number;
   
   ngOnInit(): void {
+    this.orden = localStorage.getItem('sortBy') || 'liga';
+    
+    
     this.obtenerAgenda();
   }
 
@@ -75,6 +78,12 @@ export class HomeComponent implements OnInit {
     this.reload = true;
     this.obtenerAgenda();
 
+  }
+
+  orden!:string;
+  cambiarOrden(orden:string){
+    this.orden = orden;
+    localStorage.setItem('sortBy',orden);
   }
 
 }
