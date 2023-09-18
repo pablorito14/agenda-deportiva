@@ -73,7 +73,6 @@ export class HomeComponent implements OnInit {
       this.indiceFechaSel++;
       this.fechaSel = this.agenda[this.indiceFechaSel].fecha;
     }
-    
   }
 
   reload:boolean = false;

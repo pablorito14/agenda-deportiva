@@ -23,7 +23,8 @@ export class AppComponent implements OnInit {
     }
        
     this.update.versionUpdates.subscribe((event:any) => {
-      
+      console.log(event)
+      console.log(event.type)
       // localStorage.setItem('checkingUpdate','false');
       if(event.type === "VERSION_READY"){
 
