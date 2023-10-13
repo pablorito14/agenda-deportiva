@@ -54,15 +54,15 @@
           <div class="card-header fs-4 fw-bold border-bottom border-2 bg-primary bg-opacity-10 -text-white">{{ torneo.nombre }}</div>
     
           <div class="row g-0 px-2 align-items-center border-bottom d-flex" *ngFor="let evento of torneo.eventos">
-            <div class="col-2 col-lg-1 pe-0 fw-bold py-1">
+            <div class="col-2 col-md-1 pe-0 fw-bold py-1">
               {{ moment(evento.fecha).format('HH:mm') }}
             </div>
-            <div class="col-8 col-lg-8">
+            <div class="col-10 col-md-8">
               {{ evento.nombre }}
             </div>
-            <div class="col-2 col-lg-3 text-center text-md-end">
-              <div class="lh-1 mb-1" *ngFor="let canal of evento.canales">
-                <small class="text-muted canales">{{ canal.nombre }}</small>
+            <div class="col-12 col-md-3 text-center- text-md-end- justify-content-center d-flex">
+              <div class="lh-1 m-1" *ngFor="let canal of evento.canales">
+                <small class="badge bg-secondary text-muted- canales">{{ canal.nombre }}</small>
               </div>
             </div>
           </div>
@@ -70,21 +70,21 @@
       </div>
       <div *ngIf="orden == 'horario'">
         <div class="card mb-3 shadow mx-2 animate__animated animate__bounceInUp">
+          
           <div class="row g-0 px-2 py-1 align-items-center border-bottom d-flex" *ngFor="let evento of fecha.partidos">
-            <div class="col-2 col-lg-1 pe-0 fw-bold py-1">
+            <div class="col-2 col-md-1 pe-0 fw-bold py-1">
               {{ moment(evento.fecha).format('HH:mm') }}
             </div>
-            <div class="col-8 col-lg-8 lh-sm">
+            <div class="col-10 col-md-8 lh-sm">
               {{ evento.nombre }}
               <div class="text-primary opacity-50 canales fw-bold">{{ evento.competencia }}</div>
             </div>
-            <div class="col-2 col-lg-3 text-center text-md-end">
-              <div class="lh-1 mb-1" *ngFor="let canal of evento.canales">
-                <small class="text-muted canales">{{ canal.nombre }}</small>
+            <div class="col-12 col-md-3 text-center- text-md-end- justify-content-center border-top- d-flex">
+              <div class="lh-1 m-1" *ngFor="let canal of evento.canales">
+                <small class="badge bg-secondary text-muted- canales">{{ canal.nombre }}</small>
               </div>
             </div>
           </div>
-          
         </div>
         
       </div>

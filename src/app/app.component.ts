@@ -13,9 +13,10 @@ export class AppComponent implements OnInit {
   constructor(private update:SwUpdate){}
 
   ngOnInit(): void {
-    this.updateClient();
+    // this.updateClient();
   }
 
+  
   updateClient(){
 
     if(!this.update.isEnabled){
