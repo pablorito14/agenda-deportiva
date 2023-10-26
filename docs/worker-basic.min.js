@@ -341,7 +341,13 @@ ${error.stack}`;
       const url = this.adapter.normalizeUrl(req.url);
       if (this.urls.indexOf(url) !== -1 || this.patterns.some((pattern) => pattern.test(url))) {
         const cache = await this.cache;
-        const cachedResponse = await cache.match(req, this.config.cacheQueryOptions);
+        let cachedResponse = Response | undefined;
+        try {
+          cachedResponse = await cache.match(req, this.config.cacheQueryOptions);
+        } catch (error) {
+          throw new SwCriticalError(`Cache is throwing while looking for a match: ${error}`);
+        }
+
         if (cachedResponse !== void 0) {
           if (this.hashes.has(url)) {
             return cachedResponse;
