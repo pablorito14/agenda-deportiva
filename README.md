@@ -1,12 +1,12 @@
 # AgendaFutbol
-### corregir cache crash safari
+### corregir cache crash safari en node_modules/@angular/service_worker/ngsw_worker.js
 
 Cambiar:
-```typescript
+```js
 const cachedResponse = await cache.match(req, this.config.cacheQueryOptions);
 ```
 Por:
-```typescript
+```js
 let cachedResponse = Response | undefined;
 try {
   cachedResponse = await cache.match(req, this.config.cacheQueryOptions);
