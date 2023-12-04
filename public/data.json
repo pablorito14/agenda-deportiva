@@ -1,0 +1,2441 @@
+{
+  "fechas": [
+      {
+          "fecha": "2023-12-03",
+          "torneos": [
+              {
+                  "id": "1629",
+                  "nombre": "Copa de la Liga",
+                  "eventos": [
+                      {
+                          "id": "63744",
+                          "fecha": "2023-12-03 18:30:00",
+                          "nombre": "River Plate vs. Belgrano",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "150",
+                                  "nombre": "ESPN Premium"
+                              },
+                              {
+                                  "id": "95",
+                                  "nombre": "TNT SPORTS"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63745",
+                          "fecha": "2023-12-03 21:30:00",
+                          "nombre": "Racing Club vs Rosario Central",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "150",
+                                  "nombre": "ESPN Premium"
+                              },
+                              {
+                                  "id": "95",
+                                  "nombre": "TNT SPORTS"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 18:30:00"
+              },
+              {
+                  "id": "128",
+                  "nombre": "Serie A",
+                  "eventos": [
+                      {
+                          "id": "63666",
+                          "fecha": "2023-12-03 16:45:00",
+                          "nombre": "Napoli vs Inter",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "39",
+                                  "nombre": "ESPN 2"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 08:30:00"
+              },
+              {
+                  "id": "127",
+                  "nombre": "Ligue 1 de Francia",
+                  "eventos": [
+                      {
+                          "id": "63676",
+                          "fecha": "2023-12-03 16:45:00",
+                          "nombre": "Marsella vs Rennes",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 09:00:00"
+              },
+              {
+                  "id": "126",
+                  "nombre": "Liga de España",
+                  "eventos": [
+                      {
+                          "id": "63670",
+                          "fecha": "2023-12-03 17:00:00",
+                          "nombre": "Barcelona vs Atlético Madrid",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "11",
+                                  "nombre": "DSPORTS / 1610"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 10:00:00"
+              },
+              {
+                  "id": "125",
+                  "nombre": "Premier League",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 11:00:00"
+              },
+              {
+                  "id": "129",
+                  "nombre": "Bundesliga",
+                  "eventos": [
+                      {
+                          "id": "63653",
+                          "fecha": "2023-12-03 15:30:00",
+                          "nombre": "Augsburgo vs Frankfurt",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 11:30:00"
+              },
+              {
+                  "id": "281",
+                  "nombre": "FA Cup",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 10:30:00"
+              },
+              {
+                  "id": "142",
+                  "nombre": "NFL (Fútbol Americano)",
+                  "eventos": [
+                      {
+                          "id": "63790",
+                          "fecha": "2023-12-03 15:00:00",
+                          "nombre": "Detroit Lions vs. New Orleans Saints",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "27",
+                                  "nombre": "FOX SPORTS 3"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63791",
+                          "fecha": "2023-12-03 15:00:00",
+                          "nombre": "Denver Broncos vs. Houston Texas",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "15",
+                                  "nombre": "FOX SPORTS 2"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63788",
+                          "fecha": "2023-12-03 18:00:00",
+                          "nombre": "San Fracisco 49ers vs. Philadelphia Eagles",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "27",
+                                  "nombre": "FOX SPORTS 3"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63789",
+                          "fecha": "2023-12-03 18:00:00",
+                          "nombre": "Carolina Panthers vs. Tampa Bay Buccaneers",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "15",
+                                  "nombre": "FOX SPORTS 2"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63771",
+                          "fecha": "2023-12-03 22:00:00",
+                          "nombre": "Green Bay Packers vs. Kansas City Chiefs",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "39",
+                                  "nombre": "ESPN 2"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-03 15:00:00"
+              },
+              {
+                  "id": "135",
+                  "nombre": "Brasileirao",
+                  "eventos": [
+                      {
+                          "id": "63654",
+                          "fecha": "2023-12-03 16:00:00",
+                          "nombre": "America MG vs Bahia",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63655",
+                          "fecha": "2023-12-03 16:00:00",
+                          "nombre": "Flamengo vs Cuiabá",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63656",
+                          "fecha": "2023-12-03 16:00:00",
+                          "nombre": "Palmeiras vs Fluminense",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "25",
+                                  "nombre": "ESPN 3"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63657",
+                          "fecha": "2023-12-03 18:30:00",
+                          "nombre": "Paranaense vs Santos",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "7",
+                                  "nombre": "FOX SPORTS"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63658",
+                          "fecha": "2023-12-03 18:30:00",
+                          "nombre": "Botafogo vs Cruzeiro",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "25",
+                                  "nombre": "ESPN 3"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63659",
+                          "fecha": "2023-12-03 18:30:00",
+                          "nombre": "Fortaleza vs Goiás",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63660",
+                          "fecha": "2023-12-03 18:30:00",
+                          "nombre": "Gremio vs Vasco da Gama",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63661",
+                          "fecha": "2023-12-03 18:30:00",
+                          "nombre": "Bragantino vs Coritiba",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 16:00:00"
+              },
+              {
+                  "id": "13",
+                  "nombre": "Liga Nacional",
+                  "eventos": [
+                      {
+                          "id": "63647",
+                          "fecha": "2023-12-03 20:00:00",
+                          "nombre": "Racing vs. Quilmes de Mar del Plata",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "152",
+                                  "nombre": "BASQUET PASS TV"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      },
+                      {
+                          "id": "63648",
+                          "fecha": "2023-12-03 21:00:00",
+                          "nombre": "Comunicaciones vs. Ferro",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "152",
+                                  "nombre": "BASQUET PASS TV"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "2",
+                      "nombre": "Básquet",
+                      "icono": "basquet.png"
+                  },
+                  "primerFecha": "2023-12-03 20:00:00"
+              },
+              {
+                  "id": "847",
+                  "nombre": "Carburando",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "5",
+                      "nombre": "Automovilismo",
+                      "icono": "automovilismo.png"
+                  },
+                  "primerFecha": "2023-12-03 08:00:00"
+              },
+              {
+                  "id": "139",
+                  "nombre": "Eredivisie ",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 08:15:00"
+              },
+              {
+                  "id": "275",
+                  "nombre": "Scottish Premiership (Liga de Escocia)",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 09:00:00"
+              },
+              {
+                  "id": "1158",
+                  "nombre": "La Liga 1-2-3 de España",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 10:00:00"
+              },
+              {
+                  "id": "1652",
+                  "nombre": "Mundial Junior Femenino de Hockey",
+                  "eventos": [
+                      {
+                          "id": "63769",
+                          "fecha": "2023-12-03 17:00:00",
+                          "nombre": "España vs. Corea del Sur",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63770",
+                          "fecha": "2023-12-03 19:00:00",
+                          "nombre": "Argentina vs. Zimbawe",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-03 10:00:00"
+              },
+              {
+                  "id": "249",
+                  "nombre": "Premiership Inglesa",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "4",
+                      "nombre": "Rugby",
+                      "icono": "rugby.png"
+                  },
+                  "primerFecha": "2023-12-03 11:55:00"
+              },
+              {
+                  "id": "1542",
+                  "nombre": "Serie B",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 12:15:00"
+              },
+              {
+                  "id": "161",
+                  "nombre": "Liga ACB",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "2",
+                      "nombre": "Básquet",
+                      "icono": "basquet.png"
+                  },
+                  "primerFecha": "2023-12-03 08:30:00"
+              },
+              {
+                  "id": "928",
+                  "nombre": "Argentina Open",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "3",
+                      "nombre": "Tenis",
+                      "icono": "tenis.png"
+                  },
+                  "primerFecha": "2023-12-03 13:30:00"
+              },
+              {
+                  "id": "1447",
+                  "nombre": "Beisbol LVBP",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-03 13:30:00"
+              },
+              {
+                  "id": "273",
+                  "nombre": "Pro League (Liga de Bélgica)",
+                  "eventos": [],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 14:30:00"
+              },
+              {
+                  "id": "870",
+                  "nombre": "Mundial de Handball Femenino",
+                  "eventos": [
+                      {
+                          "id": "63787",
+                          "fecha": "2023-12-03 16:30:00",
+                          "nombre": "Chile vs Dinamarca",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "16",
+                                  "nombre": "DSPORTS 2 / 1612"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-03 16:30:00"
+              },
+              {
+                  "id": "96",
+                  "nombre": "Top 14 de Francia",
+                  "eventos": [
+                      {
+                          "id": "63768",
+                          "fecha": "2023-12-03 17:00:00",
+                          "nombre": "Paris vs. Toulouse",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "4",
+                              "nombre": "Rugby",
+                              "icono": "rugby.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "4",
+                      "nombre": "Rugby",
+                      "icono": "rugby.png"
+                  },
+                  "primerFecha": "2023-12-03 17:00:00"
+              },
+              {
+                  "id": "149",
+                  "nombre": "Liga Sudamericana de Clubes",
+                  "eventos": [
+                      {
+                          "id": "63783",
+                          "fecha": "2023-12-03 18:40:00",
+                          "nombre": "Tercer Puesto",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "16",
+                                  "nombre": "DSPORTS 2 / 1612"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      },
+                      {
+                          "id": "63784",
+                          "fecha": "2023-12-03 21:40:00",
+                          "nombre": "Final",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "16",
+                                  "nombre": "DSPORTS 2 / 1612"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "2",
+                      "nombre": "Básquet",
+                      "icono": "basquet.png"
+                  },
+                  "primerFecha": "2023-12-03 18:40:00"
+              },
+              {
+                  "id": "194",
+                  "nombre": "Torneo Federal A",
+                  "eventos": [
+                      {
+                          "id": "63782",
+                          "fecha": "2023-12-03 20:00:00",
+                          "nombre": "Douglas Haig VS Gimnasia y Tiro (Salta)",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "12",
+                                  "nombre": "DSPORTS+ / 1613"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-03 20:00:00"
+              }
+          ],
+          "eventos": [],
+          "tieneEventos": true
+      },
+      {
+          "fecha": "2023-12-04",
+          "torneos": [
+              {
+                  "id": "128",
+                  "nombre": "Serie A",
+                  "eventos": [
+                      {
+                          "id": "63753",
+                          "fecha": "2023-12-04 16:30:00",
+                          "nombre": "Torino vs. Atalanta",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "39",
+                                  "nombre": "ESPN 2"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-04 16:30:00"
+              },
+              {
+                  "id": "126",
+                  "nombre": "Liga de España",
+                  "eventos": [
+                      {
+                          "id": "63775",
+                          "fecha": "2023-12-04 17:00:00",
+                          "nombre": "Celta de Vigo vs Cádiz",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "12",
+                                  "nombre": "DSPORTS+ / 1613"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-04 17:00:00"
+              },
+              {
+                  "id": "281",
+                  "nombre": "FA Cup",
+                  "eventos": [
+                      {
+                          "id": "63755",
+                          "fecha": "2023-12-04 16:45:00",
+                          "nombre": "AFC Wimbledon vs. Ramsgate",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-04 16:45:00"
+              },
+              {
+                  "id": "142",
+                  "nombre": "NFL (Fútbol Americano)",
+                  "eventos": [
+                      {
+                          "id": "63756",
+                          "fecha": "2023-12-04 22:00:00",
+                          "nombre": "Jacksonville Jaguars vs. Cincinnati Bengals",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "39",
+                                  "nombre": "ESPN 2"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-04 22:00:00"
+              },
+              {
+                  "id": "13",
+                  "nombre": "Liga Nacional",
+                  "eventos": [
+                      {
+                          "id": "63649",
+                          "fecha": "2023-12-04 21:10:00",
+                          "nombre": "Obras vs. Regatas",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "152",
+                                  "nombre": "BASQUET PASS TV"
+                              },
+                              {
+                                  "id": "20",
+                                  "nombre": "TYC SPORTS"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "2",
+                      "nombre": "Básquet",
+                      "icono": "basquet.png"
+                  },
+                  "primerFecha": "2023-12-04 21:10:00"
+              },
+              {
+                  "id": "1651",
+                  "nombre": "Mundial Junior Masculino de Hockey",
+                  "eventos": [
+                      {
+                          "id": "63757",
+                          "fecha": "2023-12-04 00:00:00",
+                          "nombre": "Francia vs. Egipto",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-04 00:00:00"
+              },
+              {
+                  "id": "870",
+                  "nombre": "Mundial de Handball Femenino",
+                  "eventos": [
+                      {
+                          "id": "63778",
+                          "fecha": "2023-12-04 14:00:00",
+                          "nombre": "Argentina vs. Congo",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "16",
+                                  "nombre": "DSPORTS 2 / 1612"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-04 14:00:00"
+              },
+              {
+                  "id": "1554",
+                  "nombre": "Superliga de Turquía",
+                  "eventos": [
+                      {
+                          "id": "63776",
+                          "fecha": "2023-12-04 14:00:00",
+                          "nombre": "Fenerbahce vs Sivasspor",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "7",
+                                  "nombre": "FOX SPORTS"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-04 14:00:00"
+              },
+              {
+                  "id": "1158",
+                  "nombre": "La Liga 1-2-3 de España",
+                  "eventos": [
+                      {
+                          "id": "63754",
+                          "fecha": "2023-12-04 16:30:00",
+                          "nombre": "Villarreal II vs. Eibar",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-04 16:30:00"
+              },
+              {
+                  "id": "163",
+                  "nombre": "WWE (World Wrestling Entertainment)",
+                  "eventos": [
+                      {
+                          "id": "63777",
+                          "fecha": "2023-12-04 22:00:00",
+                          "nombre": "RAW",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "27",
+                                  "nombre": "FOX SPORTS 3"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-04 22:00:00"
+              }
+          ],
+          "eventos": [],
+          "tieneEventos": true
+      },
+      {
+          "fecha": "2023-12-05",
+          "torneos": [
+              {
+                  "id": "125",
+                  "nombre": "Premier League",
+                  "eventos": [
+                      {
+                          "id": "63814",
+                          "fecha": "2023-12-05 16:20:00",
+                          "nombre": "Wolverhampton vs. Burnley",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "39",
+                                  "nombre": "ESPN 2"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63682",
+                          "fecha": "2023-12-05 16:30:00",
+                          "nombre": "Wolverhampton vs. Burnley",
+                          "horaDia": 2,
+                          "canales": [],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63817",
+                          "fecha": "2023-12-05 17:00:00",
+                          "nombre": "Luton Town vs. Arsenal",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "142",
+                                  "nombre": "STAR + / ESPN"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-05 16:20:00"
+              },
+              {
+                  "id": "196",
+                  "nombre": "Copa del Rey",
+                  "eventos": [
+                      {
+                          "id": "63824",
+                          "fecha": "2023-12-05 15:00:00",
+                          "nombre": "Atzeneta vs. Getafe",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "12",
+                                  "nombre": "DSPORTS+ / 1613"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63825",
+                          "fecha": "2023-12-05 17:00:00",
+                          "nombre": "Arosa vs. Valencia",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "12",
+                                  "nombre": "DSPORTS+ / 1613"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63828",
+                          "fecha": "2023-12-05 17:00:00",
+                          "nombre": "Espanyol vs. Valladolid",
+                          "horaDia": 2,
+                          "canales": [],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63829",
+                          "fecha": "2023-12-05 17:00:00",
+                          "nombre": "Castellón vs. Oviedo",
+                          "horaDia": 2,
+                          "canales": [],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-05 15:00:00"
+              },
+              {
+                  "id": "10",
+                  "nombre": "NBA",
+                  "eventos": [
+                      {
+                          "id": "63822",
+                          "fecha": "2023-12-05 21:30:00",
+                          "nombre": "Bucks vs. Knicks",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      },
+                      {
+                          "id": "63823",
+                          "fecha": "2023-12-05 23:59:00",
+                          "nombre": "Kings vs. Pelicans",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "2",
+                      "nombre": "Básquet",
+                      "icono": "basquet.png"
+                  },
+                  "primerFecha": "2023-12-05 21:30:00"
+              },
+              {
+                  "id": "1651",
+                  "nombre": "Mundial Junior Masculino de Hockey",
+                  "eventos": [
+                      {
+                          "id": "63807",
+                          "fecha": "2023-12-05 02:00:00",
+                          "nombre": "Alemania vs. Sudáfrica",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63808",
+                          "fecha": "2023-12-05 05:00:00",
+                          "nombre": "España vs. Canadá",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63809",
+                          "fecha": "2023-12-05 07:00:00",
+                          "nombre": "Argentina vs. Australia",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63810",
+                          "fecha": "2023-12-05 09:00:00",
+                          "nombre": "India vs. Corea del Sur",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63811",
+                          "fecha": "2023-12-05 11:00:00",
+                          "nombre": "Malasia vs. Chile",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63821",
+                          "fecha": "2023-12-05 23:59:00",
+                          "nombre": " Países Bajos vs. Pakistán",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-05 02:00:00"
+              },
+              {
+                  "id": "573",
+                  "nombre": "Copa de Alemania",
+                  "eventos": [
+                      {
+                          "id": "63812",
+                          "fecha": "2023-12-05 14:00:00",
+                          "nombre": "Magdeburg vs. Fortuna Düsseldorf",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63813",
+                          "fecha": "2023-12-05 14:00:00",
+                          "nombre": "Kaiserlautern vs. Nürnberg",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63815",
+                          "fecha": "2023-12-05 16:45:00",
+                          "nombre": "Homburg vs. St. Pauli",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63816",
+                          "fecha": "2023-12-05 16:45:00",
+                          "nombre": "Borussia Monchengladbach vs. Wolfsburg",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-05 14:00:00"
+              },
+              {
+                  "id": "870",
+                  "nombre": "Mundial de Handball Femenino",
+                  "eventos": [
+                      {
+                          "id": "63827",
+                          "fecha": "2023-12-05 14:00:00",
+                          "nombre": "Serbia vs. Chile",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "16",
+                                  "nombre": "DSPORTS 2 / 1612"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-05 14:00:00"
+              },
+              {
+                  "id": "170",
+                  "nombre": "Euroliga",
+                  "eventos": [
+                      {
+                          "id": "63826",
+                          "fecha": "2023-12-05 16:15:00",
+                          "nombre": "Olympiacos vs. Real Madrid",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "16",
+                                  "nombre": "DSPORTS 2 / 1612"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "2",
+                      "nombre": "Básquet",
+                      "icono": "basquet.png"
+                  },
+                  "primerFecha": "2023-12-05 16:15:00"
+              },
+              {
+                  "id": "559",
+                  "nombre": "Copa de Italia ",
+                  "eventos": [
+                      {
+                          "id": "63818",
+                          "fecha": "2023-12-05 17:00:00",
+                          "nombre": "Lazio vs. Genoa",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-05 17:00:00"
+              },
+              {
+                  "id": "1577",
+                  "nombre": "NHL",
+                  "eventos": [
+                      {
+                          "id": "63819",
+                          "fecha": "2023-12-05 21:30:00",
+                          "nombre": "Buffalo Sabres vs. Detroit Red Vikings",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-05 21:30:00"
+              },
+              {
+                  "id": "1653",
+                  "nombre": "Miami Invitational",
+                  "eventos": [
+                      {
+                          "id": "63820",
+                          "fecha": "2023-12-05 22:00:00",
+                          "nombre": "Partido Leyendas de Conmebol",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "142",
+                                  "nombre": "STAR + / ESPN"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-05 22:00:00"
+              }
+          ],
+          "eventos": [],
+          "tieneEventos": true
+      },
+      {
+          "fecha": "2023-12-06",
+          "torneos": [
+              {
+                  "id": "64",
+                  "nombre": "UEFA Europa League",
+                  "eventos": [
+                      {
+                          "id": "63684",
+                          "fecha": "2023-12-06 17:00:00",
+                          "nombre": "Villarreal vs. Maccabi Haifa",
+                          "horaDia": 2,
+                          "canales": [],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-06 17:00:00"
+              },
+              {
+                  "id": "127",
+                  "nombre": "Ligue 1 de Francia",
+                  "eventos": [
+                      {
+                          "id": "63691",
+                          "fecha": "2023-12-06 17:00:00",
+                          "nombre": "Marsella vs. Lyon",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-06 17:00:00"
+              },
+              {
+                  "id": "125",
+                  "nombre": "Premier League",
+                  "eventos": [
+                      {
+                          "id": "63837",
+                          "fecha": "2023-12-06 16:20:00",
+                          "nombre": "Brighton vs. Brentford",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63838",
+                          "fecha": "2023-12-06 16:20:00",
+                          "nombre": " Crystal Palace vs. Bournemouth",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63839",
+                          "fecha": "2023-12-06 16:20:00",
+                          "nombre": "Sheffield United vs. Liverpool",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63840",
+                          "fecha": "2023-12-06 16:20:00",
+                          "nombre": "Fulham vs. Notthingham Forest",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63689",
+                          "fecha": "2023-12-06 17:15:00",
+                          "nombre": "Aston Villa vs. Manchester City",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63690",
+                          "fecha": "2023-12-06 17:15:00",
+                          "nombre": "Manchester United vs. Chelsea",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "142",
+                                  "nombre": "STAR + / ESPN"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-06 16:20:00"
+              },
+              {
+                  "id": "10",
+                  "nombre": "NBA",
+                  "eventos": [
+                      {
+                          "id": "63845",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Minnesota Timberwolves vs. San Antonio Spurs",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "39",
+                                  "nombre": "ESPN 2"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      },
+                      {
+                          "id": "63846",
+                          "fecha": "2023-12-06 23:59:00",
+                          "nombre": "LA Clippers vs. Denver Nuggets",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "2",
+                              "nombre": "Básquet",
+                              "icono": "basquet.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "2",
+                      "nombre": "Básquet",
+                      "icono": "basquet.png"
+                  },
+                  "primerFecha": "2023-12-06 21:30:00"
+              },
+              {
+                  "id": "135",
+                  "nombre": "Brasileirao",
+                  "eventos": [
+                      {
+                          "id": "63692",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Bahia vs Atl. Mineiro",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63700",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Sao Paulo vs. Flamengo",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "8",
+                                  "nombre": "ESPN"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63699",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Santos vs. Fortaleza",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63698",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Internacional vs. Botafogo",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63697",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Goias vs. América MG",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63696",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Fluminense vs. Gremio",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63695",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Cuiabá vs. Paranaense",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63694",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Cruzeiro vs. Palmeiras",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63693",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Coritiba vs. Corinthians",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63701",
+                          "fecha": "2023-12-06 21:30:00",
+                          "nombre": "Vasco da Gama vs. Bragantino",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-06 21:30:00"
+              },
+              {
+                  "id": "1651",
+                  "nombre": "Mundial Junior Masculino de Hockey",
+                  "eventos": [
+                      {
+                          "id": "63830",
+                          "fecha": "2023-12-06 02:00:00",
+                          "nombre": "Bélgica vs. Nueva Zelanda",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63831",
+                          "fecha": "2023-12-06 07:00:00",
+                          "nombre": "Sudáfrica vs. Egipto",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63832",
+                          "fecha": "2023-12-06 07:00:00",
+                          "nombre": "Francia vs. Alemania",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63833",
+                          "fecha": "2023-12-06 09:00:00",
+                          "nombre": "Australia vs. Chile",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63834",
+                          "fecha": "2023-12-06 11:00:00",
+                          "nombre": "Malasia vs. Argentina",
+                          "horaDia": 1,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      },
+                      {
+                          "id": "63847",
+                          "fecha": "2023-12-06 23:59:00",
+                          "nombre": "Corea del Sur vs. Canadá",
+                          "horaDia": 3,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-06 02:00:00"
+              },
+              {
+                  "id": "573",
+                  "nombre": "Copa de Alemania",
+                  "eventos": [
+                      {
+                          "id": "63835",
+                          "fecha": "2023-12-06 14:00:00",
+                          "nombre": "Bayer Leverkusen vs. Padeborn",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63836",
+                          "fecha": "2023-12-06 14:00:00",
+                          "nombre": "Saarbrucken vs. Eintracht Frankfurt",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63841",
+                          "fecha": "2023-12-06 16:30:00",
+                          "nombre": "Stuttgart vs. Borussia Dortmund",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "171",
+                                  "nombre": "DGO"
+                              },
+                              {
+                                  "id": "25",
+                                  "nombre": "ESPN 3"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      },
+                      {
+                          "id": "63842",
+                          "fecha": "2023-12-06 16:45:00",
+                          "nombre": "Hertha Berlin vs. Hamburg",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-06 14:00:00"
+              },
+              {
+                  "id": "559",
+                  "nombre": "Copa de Italia ",
+                  "eventos": [
+                      {
+                          "id": "63843",
+                          "fecha": "2023-12-06 17:00:00",
+                          "nombre": "Fiorentina vs. Parma",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "1",
+                              "nombre": "Fútbol",
+                              "icono": "futbol.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "1",
+                      "nombre": "Fútbol",
+                      "icono": "futbol.png"
+                  },
+                  "primerFecha": "2023-12-06 17:00:00"
+              },
+              {
+                  "id": "1133",
+                  "nombre": "Hockey Femenino: FIH Pro League",
+                  "eventos": [
+                      {
+                          "id": "63844",
+                          "fecha": "2023-12-06 19:00:00",
+                          "nombre": "Argentina vs. Gran Bretaña",
+                          "horaDia": 2,
+                          "canales": [
+                              {
+                                  "id": "25",
+                                  "nombre": "ESPN 3"
+                              },
+                              {
+                                  "id": "146",
+                                  "nombre": "STAR +"
+                              }
+                          ],
+                          "deporte": {
+                              "id": "7",
+                              "nombre": "Polideportivo",
+                              "icono": "polideportivo.png"
+                          }
+                      }
+                  ],
+                  "deporte": {
+                      "id": "7",
+                      "nombre": "Polideportivo",
+                      "icono": "polideportivo.png"
+                  },
+                  "primerFecha": "2023-12-06 19:00:00"
+              }
+          ],
+          "eventos": [],
+          "tieneEventos": true
+      }
+  ],
+  "canales": [
+      {
+          "id": "152",
+          "nombre": "BASQUET PASS TV"
+      },
+      {
+          "id": "171",
+          "nombre": "DGO"
+      },
+      {
+          "id": "11",
+          "nombre": "DSPORTS / 1610"
+      },
+      {
+          "id": "16",
+          "nombre": "DSPORTS 2 / 1612"
+      },
+      {
+          "id": "12",
+          "nombre": "DSPORTS+ / 1613"
+      },
+      {
+          "id": "8",
+          "nombre": "ESPN"
+      },
+      {
+          "id": "39",
+          "nombre": "ESPN 2"
+      },
+      {
+          "id": "25",
+          "nombre": "ESPN 3"
+      },
+      {
+          "id": "150",
+          "nombre": "ESPN Premium"
+      },
+      {
+          "id": "7",
+          "nombre": "FOX SPORTS"
+      },
+      {
+          "id": "15",
+          "nombre": "FOX SPORTS 2"
+      },
+      {
+          "id": "27",
+          "nombre": "FOX SPORTS 3"
+      },
+      {
+          "id": "146",
+          "nombre": "STAR +"
+      },
+      {
+          "id": "142",
+          "nombre": "STAR + / ESPN"
+      },
+      {
+          "id": "95",
+          "nombre": "TNT SPORTS"
+      },
+      {
+          "id": "20",
+          "nombre": "TYC SPORTS"
+      }
+  ],
+  "hoy": "2023-12-03",
+  "firma": {
+      "mail": "lnaredo@agea.com.ar // lchiapasco@agea.com.ar // ffelix@agea.com.ar",
+      "nombre": "Lautaro Naredo, Luciano Chiapasco y Felix Laiño"
+  }
+}
